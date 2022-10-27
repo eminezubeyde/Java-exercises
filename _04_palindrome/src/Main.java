@@ -10,7 +10,7 @@ public class Main {
 
 
     private static boolean checkPalindrome(String palindrome) {
-        int i = 0, k = palindrome.length() - 1;
+        int i, k = palindrome.length() - 1;
         boolean isPalindrome = true;
         for (i = 0; i < palindrome.length() / 2; i++) {
             if (palindrome.charAt(i) != palindrome.charAt(k)) {
